@@ -15,6 +15,19 @@
 		A6B3C64B1511944000F8E24F /* TestPopoverAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3C64A1511944000F8E24F /* TestPopoverAppDelegate.m */; };
 		A6B3C64E1511944000F8E24F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B3C64C1511944000F8E24F /* MainStoryboard.storyboard */; };
 		A6B3C6511511944000F8E24F /* TestPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3C6501511944000F8E24F /* TestPopoverViewController.m */; };
+		A6B3C65D1511947F00F8E24F /* WEPopoverContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3C6591511947F00F8E24F /* WEPopoverContainerView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6B3C65E1511947F00F8E24F /* WEPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3C65B1511947F00F8E24F /* WEPopoverController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6B3C6611511958400F8E24F /* TestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B3C6601511958400F8E24F /* TestTableViewController.m */; };
+		A6C192DA1511A27700382C66 /* popoverBg.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D01511A27700382C66 /* popoverBg.png */; };
+		A6C192DB1511A27700382C66 /* popoverBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D11511A27700382C66 /* popoverBg@2x.png */; };
+		A6C192DC1511A27700382C66 /* popoverArrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D21511A27700382C66 /* popoverArrowDown.png */; };
+		A6C192DD1511A27700382C66 /* popoverArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D31511A27700382C66 /* popoverArrowLeft.png */; };
+		A6C192DE1511A27700382C66 /* popoverArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D41511A27700382C66 /* popoverArrowRight.png */; };
+		A6C192DF1511A27700382C66 /* popoverArrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D51511A27700382C66 /* popoverArrowUp.png */; };
+		A6C192E01511A27700382C66 /* popoverArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D61511A27700382C66 /* popoverArrowLeft@2x.png */; };
+		A6C192E11511A27700382C66 /* popoverArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D71511A27700382C66 /* popoverArrowRight@2x.png */; };
+		A6C192E21511A27700382C66 /* popoverArrowUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D81511A27700382C66 /* popoverArrowUp@2x.png */; };
+		A6C192E31511A27700382C66 /* popoverArrowDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6C192D91511A27700382C66 /* popoverArrowDown@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +35,32 @@
 		A6B3C63A1511944000F8E24F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A6B3C63C1511944000F8E24F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A6B3C63E1511944000F8E24F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A6B3C6421511944000F8E24F /* TestPopover-Info.plist */ = {isa = PBXFileReference; path = "TestPopover-Info.plist"; sourceTree = "<group>"; };
+		A6B3C6421511944000F8E24F /* TestPopover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestPopover-Info.plist"; sourceTree = "<group>"; };
 		A6B3C6441511944000F8E24F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A6B3C6461511944000F8E24F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A6B3C6481511944000F8E24F /* TestPopover-Prefix.pch */ = {isa = PBXFileReference; path = "TestPopover-Prefix.pch"; sourceTree = "<group>"; };
-		A6B3C6491511944000F8E24F /* TestPopoverAppDelegate.h */ = {isa = PBXFileReference; path = TestPopoverAppDelegate.h; sourceTree = "<group>"; };
+		A6B3C6481511944000F8E24F /* TestPopover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestPopover-Prefix.pch"; sourceTree = "<group>"; };
+		A6B3C6491511944000F8E24F /* TestPopoverAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPopoverAppDelegate.h; sourceTree = "<group>"; };
 		A6B3C64A1511944000F8E24F /* TestPopoverAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopoverAppDelegate.m; sourceTree = "<group>"; };
 		A6B3C64D1511944000F8E24F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		A6B3C64F1511944000F8E24F /* TestPopoverViewController.h */ = {isa = PBXFileReference; path = TestPopoverViewController.h; sourceTree = "<group>"; };
+		A6B3C64F1511944000F8E24F /* TestPopoverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPopoverViewController.h; sourceTree = "<group>"; };
 		A6B3C6501511944000F8E24F /* TestPopoverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPopoverViewController.m; sourceTree = "<group>"; };
+		A6B3C6581511947F00F8E24F /* WEPopoverContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverContainerView.h; sourceTree = "<group>"; };
+		A6B3C6591511947F00F8E24F /* WEPopoverContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverContainerView.m; sourceTree = "<group>"; };
+		A6B3C65A1511947F00F8E24F /* WEPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverController.h; sourceTree = "<group>"; };
+		A6B3C65B1511947F00F8E24F /* WEPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WEPopoverController.m; sourceTree = "<group>"; };
+		A6B3C65C1511947F00F8E24F /* WEPopoverParentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WEPopoverParentView.h; sourceTree = "<group>"; };
+		A6B3C65F1511958400F8E24F /* TestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		A6B3C6601511958400F8E24F /* TestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		A6C192D01511A27700382C66 /* popoverBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverBg.png; sourceTree = "<group>"; };
+		A6C192D11511A27700382C66 /* popoverBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverBg@2x.png"; sourceTree = "<group>"; };
+		A6C192D21511A27700382C66 /* popoverArrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowDown.png; sourceTree = "<group>"; };
+		A6C192D31511A27700382C66 /* popoverArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowLeft.png; sourceTree = "<group>"; };
+		A6C192D41511A27700382C66 /* popoverArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowRight.png; sourceTree = "<group>"; };
+		A6C192D51511A27700382C66 /* popoverArrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = popoverArrowUp.png; sourceTree = "<group>"; };
+		A6C192D61511A27700382C66 /* popoverArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowLeft@2x.png"; sourceTree = "<group>"; };
+		A6C192D71511A27700382C66 /* popoverArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowRight@2x.png"; sourceTree = "<group>"; };
+		A6C192D81511A27700382C66 /* popoverArrowUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowUp@2x.png"; sourceTree = "<group>"; };
+		A6C192D91511A27700382C66 /* popoverArrowDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "popoverArrowDown@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +80,7 @@
 		A6B3C62B1511943F00F8E24F = {
 			isa = PBXGroup;
 			children = (
+				A6B3C6571511944A00F8E24F /* Popover */,
 				A6B3C6401511944000F8E24F /* TestPopover */,
 				A6B3C6391511944000F8E24F /* Frameworks */,
 				A6B3C6371511944000F8E24F /* Products */,
@@ -82,6 +113,8 @@
 				A6B3C64C1511944000F8E24F /* MainStoryboard.storyboard */,
 				A6B3C64F1511944000F8E24F /* TestPopoverViewController.h */,
 				A6B3C6501511944000F8E24F /* TestPopoverViewController.m */,
+				A6B3C65F1511958400F8E24F /* TestTableViewController.h */,
+				A6B3C6601511958400F8E24F /* TestTableViewController.m */,
 				A6B3C6411511944000F8E24F /* Supporting Files */,
 			);
 			path = TestPopover;
@@ -96,6 +129,28 @@
 				A6B3C6481511944000F8E24F /* TestPopover-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B3C6571511944A00F8E24F /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				A6C192D01511A27700382C66 /* popoverBg.png */,
+				A6C192D11511A27700382C66 /* popoverBg@2x.png */,
+				A6C192D21511A27700382C66 /* popoverArrowDown.png */,
+				A6C192D31511A27700382C66 /* popoverArrowLeft.png */,
+				A6C192D41511A27700382C66 /* popoverArrowRight.png */,
+				A6C192D51511A27700382C66 /* popoverArrowUp.png */,
+				A6C192D61511A27700382C66 /* popoverArrowLeft@2x.png */,
+				A6C192D71511A27700382C66 /* popoverArrowRight@2x.png */,
+				A6C192D81511A27700382C66 /* popoverArrowUp@2x.png */,
+				A6C192D91511A27700382C66 /* popoverArrowDown@2x.png */,
+				A6B3C6581511947F00F8E24F /* WEPopoverContainerView.h */,
+				A6B3C6591511947F00F8E24F /* WEPopoverContainerView.m */,
+				A6B3C65A1511947F00F8E24F /* WEPopoverController.h */,
+				A6B3C65B1511947F00F8E24F /* WEPopoverController.m */,
+				A6B3C65C1511947F00F8E24F /* WEPopoverParentView.h */,
+			);
+			name = Popover;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +206,16 @@
 			files = (
 				A6B3C6451511944000F8E24F /* InfoPlist.strings in Resources */,
 				A6B3C64E1511944000F8E24F /* MainStoryboard.storyboard in Resources */,
+				A6C192DA1511A27700382C66 /* popoverBg.png in Resources */,
+				A6C192DB1511A27700382C66 /* popoverBg@2x.png in Resources */,
+				A6C192DC1511A27700382C66 /* popoverArrowDown.png in Resources */,
+				A6C192DD1511A27700382C66 /* popoverArrowLeft.png in Resources */,
+				A6C192DE1511A27700382C66 /* popoverArrowRight.png in Resources */,
+				A6C192DF1511A27700382C66 /* popoverArrowUp.png in Resources */,
+				A6C192E01511A27700382C66 /* popoverArrowLeft@2x.png in Resources */,
+				A6C192E11511A27700382C66 /* popoverArrowRight@2x.png in Resources */,
+				A6C192E21511A27700382C66 /* popoverArrowUp@2x.png in Resources */,
+				A6C192E31511A27700382C66 /* popoverArrowDown@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +229,9 @@
 				A6B3C6471511944000F8E24F /* main.m in Sources */,
 				A6B3C64B1511944000F8E24F /* TestPopoverAppDelegate.m in Sources */,
 				A6B3C6511511944000F8E24F /* TestPopoverViewController.m in Sources */,
+				A6B3C65D1511947F00F8E24F /* WEPopoverContainerView.m in Sources */,
+				A6B3C65E1511947F00F8E24F /* WEPopoverController.m in Sources */,
+				A6B3C6611511958400F8E24F /* TestTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +308,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPopover/TestPopover-Prefix.pch";
 				INFOPLIST_FILE = "TestPopover/TestPopover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +320,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPopover/TestPopover-Prefix.pch";
 				INFOPLIST_FILE = "TestPopover/TestPopover-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +345,7 @@
 				A6B3C6561511944000F8E24F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

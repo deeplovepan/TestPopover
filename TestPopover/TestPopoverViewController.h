@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TestPopoverViewController : UIViewController
+@class WEPopoverController;
 
+@interface TestPopoverViewController : UIViewController
+{
+    WEPopoverController *popoverController;
+}
 @end
